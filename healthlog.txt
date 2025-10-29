@@ -1,0 +1,49 @@
+==============================
+Healthcheck: 2025-10-29 17:38:29
+==============================
+
+System date and time
+Wed Oct 29 17:38:29 IST 2025
+
+System uptime
+ 17:38:29 up  3:27,  1 user,  load average: 0.00, 0.00, 0.00
+
+CPU load
+ 0.00, 0.00, 0.00
+
+Memory usage (in MB)
+               total        used        free      shared  buff/cache   available
+Mem:            3834         320        3399           3         114        3388
+Swap:           1024           0        1024
+
+Disk usage
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G   95G  143G  40% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.2G  954G   1% /
+none            1.9G   76K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  500K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G   95G  143G  40% /mnt/c
+tmpfs           384M  8.0K  384M   1% /run/user/1000
+
+Top 5 memory using processes
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         226  0.0  0.5 107164 21248 ?        Ssl  14:10   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         188  0.0  0.4  30136 18680 ?        Ss   14:10   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root          63  0.0  0.3  64196 14040 ?        S<s  14:10   0:00 /lib/systemd/systemd-journald
+systemd+     172  0.0  0.3  25672 13284 ?        Ss   14:10   0:00 /lib/systemd/systemd-resolved
+root           1  0.0  0.2 165828 10624 ?        Ss   14:10   0:01 /sbin/init
+
+Service status
+nginx : NOT running
+ssh : NOT running
+
+Healthcheck completed at: Wed Oct 29 17:38:29 IST 2025
+
