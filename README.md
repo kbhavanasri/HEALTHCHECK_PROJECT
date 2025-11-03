@@ -5,19 +5,19 @@ This is a simple bash script that checks your system health and saves the result
 
 A.Files:
 
-healthcheck.sh → main script
-healthlog.txt → stores the output
-README.md → explains the project
+a.healthcheck.sh → main script
+b.healthlog.txt → stores the output
+c.README.md → explains the project
 
 B.What it shows
 
-Date and time
-System uptime
-CPU load
-Memory usage
-Disk usage
-Top 5 memory using processes
-Status of nginx and ssh services
+a.Date and time
+b.System uptime
+c.CPU load
+d.Memory usage
+e.Disk usage
+f.Top 5 memory using processes
+g.Status of nginx and ssh services
 
 C.How to run
 
@@ -28,3 +28,4 @@ chmod +x healthcheck.sh
 ./healthcheck.sh
 
 4. Open healthlog.txt to see the output# HEALTHCHECK_PROJECT
+
